@@ -1,3 +1,5 @@
+/* Styles Sheet for Gut Buddies */
+
 @font-face {
   font-family: "Campton-Bold";
   src: url("/fonts/Campton Bold.otf");
@@ -6,7 +8,9 @@
   font-family: "Campton-Book";
   src: url("/fonts/Campton Book.otf");
 }
-
+a {
+  font-family: Campton-Book, Helvetica, sans-serif;
+}
 p {
   color: #1A3557;
   font-family: Campton-Book, Helvetica, sans-serif;
@@ -23,13 +27,18 @@ h2 {
   font-size: 2em;
 }
 
+li {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #1A3557;
+}
+
 .header {
   background-color: #FADD8B;
   padding-top: 2em;
 }
 
 .navigation {
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 .header-center {
@@ -39,13 +48,14 @@ h2 {
 }
 
 .logo {
-  width: 53em;
+  width: 40em;
 }
+
 .menu-item {
   font-family: Campton-Bold , Helvetica, sans-serif;
   text-decoration: none;
   color: #1A3557;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .menu-item + .menu-item {
@@ -56,15 +66,143 @@ h2 {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-  bottom: 6em;
+  bottom: 4em;
   right: 6em;
 }
 
-.social-blue {
-  font-size: 2em;
-}
-
 .fab.blue {
+  font-size: 2em;
   color: #1A3557;
   margin-right: 0.5em;
+}
+
+.title-homepage {
+  height: 600px;
+  background-image: url("assets/home-background.png");
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FADD8B;
+  padding-bottom: 6em;
+}
+
+p.about {
+    padding-left: 30em;
+    padding-right: 30em;
+}
+
+.cta {
+    background-color: #B25B48;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    color: #fadd8b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects {
+    background-color: #B25B48;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10em;
+}
+
+.projects-container {
+  border: #FADD8B;
+  border-style: solid;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #FADD8B;
+}
+
+ul.tour {
+    display: grid;
+    line-height: 2em;
+}
+
+.contact {
+    background-color: #1A3557;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em;
+    text-align: center;
+}
+
+a.email {
+  color: #FADD8B;
+}
+
+a.yellow {
+  font-size: 2em;
+  color: #FADD8B;
+  margin-right: 0.5em;
+}
+
+.social-yellow {
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: #FADD8B;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+/*
+.footer {
+  background-color: #FADD8B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span.footer {
+    text-align: center;
+    margin-top:
+}
+
+.social-red {
+    font-size: 1.3em;
+    color: #B25B48;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    position: relative;
+    left: 10em;
+    bottom: 0.2em;
+}
+*/
+
+.footer {
+  background-color: #FADD8B;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-right: 4em;
+}
+
+.social-red {
+    font-size: 1.3em;
+    color: #B25B48;
+    display: flex;
+    justify-content: space-around;
+    padding:1em;
+}
+
+span.footer {
+  color: #B25B48;
+  font-family: Campton-Book, Helvetica, sans-serif;
 }
