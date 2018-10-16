@@ -25,14 +25,12 @@ h2 {
 
 .header {
   background-color: #FADD8B;
-  padding: 1em;
+  padding-top: 2em;
 }
 
-.social-container {
-  display: flex;
-  flex-direction: row-reverse;
+.navigation {
+  margin-top: 4em;
 }
-
 
 .header-center {
   display: flex;
@@ -47,4 +45,26 @@ h2 {
   font-family: Campton-Bold , Helvetica, sans-serif;
   text-decoration: none;
   color: #1A3557;
+  font-size: 1.5em;
+}
+
+.menu-item + .menu-item {
+  margin-left: 6em;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 6em;
+  right: 6em;
+}
+
+.social-blue {
+  font-size: 2em;
+}
+
+.fab.blue {
+  color: #1A3557;
+  margin-right: 0.5em;
 }
