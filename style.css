@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Campton-Bold";
+  src: url("/fonts/Campton Bold.otf");
+}
+@font-face {
+  font-family: "Campton-Book";
+  src: url("/fonts/Campton Book.otf");
+}
+
+p {
+  color: #1A3557;
+  font-family: Campton-Book, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #B25B48;
+}
+
+h2 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #FADD8B;
+  font-size: 2em;
+}
+
+.header {
+  background-color: #FADD8B;
+  padding: 1em;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+.header-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 53em;
+}
+.menu-item {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1A3557;
+}
