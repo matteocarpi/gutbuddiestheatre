@@ -32,9 +32,15 @@ li {
   color: #1A3557;
 }
 
+line {
+  color: #1A3557;
+}
+
 .header {
   background-color: #FADD8B;
   padding-top: 2em;
+  border-bottom: solid;
+  border-color: #1A3557;
 }
 
 .navigation {
@@ -87,6 +93,7 @@ li {
   align-items: center;
   background-color: #FADD8B;
   padding-bottom: 6em;
+  padding-top: 2em;
 }
 
 p.about {
