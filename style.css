@@ -178,29 +178,6 @@ a.yellow {
     margin-right: 0.5em;
     margin-left: 0.5em;
 }
-/*
-.footer {
-  background-color: #FADD8B;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-span.footer {
-    text-align: center;
-    margin-top:
-}
-
-.social-red {
-    font-size: 1.3em;
-    color: #B25B48;
-    margin-right: 0.3em;
-    margin-left: 0.3em;
-    position: relative;
-    left: 10em;
-    bottom: 0.2em;
-}
-*/
 
 .footer-center {
   background-color: #FADD8B;
@@ -231,4 +208,30 @@ span.footer {
 span.footer {
   color: #B25B48;
   font-family: Campton-Book, Helvetica, sans-serif;
+}
+
+.title{
+  text-align: center;
+}
+
+p.yellow {
+  color: #FADD8B;
+}
+
+.gutbuddies  {
+  width:50%;
+}
+
+.portfolio-item {
+  display:flex;
+  justify-content: space-between;
+}
+
+.gutbuddies .photo {
+  background-image: url("assets/projects/Asset 1pj.png");
+}
+
+.gutbuddies .shape {
+  background-image: url("assets/projects/Asset 10pj.svg");
+  object-fit: cover;
 }
