@@ -218,20 +218,31 @@ p.yellow {
   color: #FADD8B;
 }
 
-.gutbuddies  {
-  width:50%;
+.gutbuddies{
+  padding:none;
+  display: flex;
+  flex-direction: row;
+  object-fit: scale-down;
+  width:70%;
+  overlap
 }
 
 .portfolio-item {
   display:flex;
-  justify-content: space-between;
+  padding-left: none;
+}
+/*
+.gutbuddies  {
+  position: absolute;
 }
 
+
+
 .gutbuddies .photo {
-  background-image: url("assets/projects/Asset 1pj.png");
+  position: absolute;
+  width:50%;
 }
 
 .gutbuddies .shape {
-  background-image: url("assets/projects/Asset 10pj.svg");
-  object-fit: cover;
+z-index: 1;
 }
