@@ -191,22 +191,30 @@ span.footer {
 }
 */
 
-.footer {
+.footer-center {
   background-color: #FADD8B;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
+.footer-right {
+  background-color: #FADD8B;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
 .social-red {
     font-size: 1.3em;
     color: #B25B48;
     display: flex;
     justify-content: space-around;
     padding:1em;
+    bottom: -5em;
 }
 
 span.footer {
