@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Campton-Bold";
+  src: url("/fonts/Campton Bold.otf");
+}
+@font-face {
+  font-family: "Campton-Book";
+  src: url("/fonts/Campton Book.otf");
+}
+
+* {
+  font-family: Campton-Book, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-family: Campton-Book, Helvetica, sans-serif;
+}
+p {
+  color: #1A3557;
+  font-family: Campton-Book, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #B25B48;
+}
+
+h2 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #FADD8B;
+  font-size: 2em;
+}
+
+h3 {
+  color: #1A3557;
+}
+
+li {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #1A3557;
+}
+
+line {
+  color: #1A3557;
+}
+
+/*Header*/
+.header {
+  background-color: #FADD8B;
+  padding-top: 2em;
+  border-bottom: solid;
+  border-color: #1A3557;
+}
+
+.navigation {
+  margin-top: 2em;
+}
+
+.header-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 40em;
+}
+
+.menu-item {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1A3557;
+  font-size: 1em;
+}
+
+.menu-item + .menu-item {
+  margin-left: 6em;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 4em;
+  right: 6em;
+}
+
+.fab.blue {
+  font-size: 2em;
+  color: #1A3557;
+  margin-right: 0.5em;
+}
+
+/*Footer*/
+
+.footer-center {
+  background-color: #FADD8B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.footer-right {
+  background-color: #FADD8B;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+.social-red {
+    font-size: 1.3em;
+    color: #B25B48;
+    display: flex;
+    justify-content: space-around;
+    padding:1em;
+    bottom: -5em;
+}
+
+span.footer {
+  color: #B25B48;
+  font-family: Campton-Book, Helvetica, sans-serif;
+}

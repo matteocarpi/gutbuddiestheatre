@@ -1,0 +1,123 @@
+/*Projects*/
+
+.title{
+  text-align: center;
+  background-color: #FADD8B;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.column-half {
+  width:60%;
+}
+
+p.yellow {
+  color: #FADD8B;
+  padding-top: 1em;
+}
+
+.portfolio-item {
+  display:flex;
+  flex-direction: row;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.gutbuddies-photo {
+  background-image: url("assets/projects/Asset 1pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover;
+}
+
+.portfolio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+  background-color: #B25B48;
+  position: relative;
+  z-index: 1;
+}
+
+.right-lip {
+  padding-right: 4em;
+  background-color: #B25B48;
+}
+.right-lip::before{
+  content: '';
+  background-color: #B25B48;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 15%;
+  min-width: 300px;
+  height: 150%;
+  top: 0;
+  right: 90%;
+  transform: rotate(25deg);
+}
+
+.left-lip {
+  padding-left: 4em;
+  background-color: #1A3557;
+}
+.left-lip::before{
+  content: '';
+  background-color: #1A3557;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 15%;
+  min-width: 300px;
+  height: 150%;
+  top: 0;
+  left: 90%;
+  transform: rotate(-25deg);
+}
+
+.cats-photo {
+  background-image: url("assets/projects/Asset 3pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover;
+}
+
+.barbados-photo {
+  background-image: url("assets/projects/Asset 4pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover;
+}
+
+.nature-honour {
+  background-color: #1A3557;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+}
+
+.nature-honour.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nature-honour.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.secondary-photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}

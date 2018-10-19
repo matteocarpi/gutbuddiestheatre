@@ -1,5 +1,3 @@
-/* Styles Sheet for Gut Buddies */
-
 @font-face {
   font-family: "Campton-Bold";
   src: url("/fonts/Campton Bold.otf");
@@ -8,31 +6,33 @@
   font-family: "Campton-Book";
   src: url("/fonts/Campton Book.otf");
 }
-
 * {
   font-family: Campton-Book, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
+
 body {
   padding: 0;
   margin: 0;
 }
+
 a {
   font-family: Campton-Book, Helvetica, sans-serif;
 }
+
 p {
   color: #1A3557;
   font-family: Campton-Book, Helvetica, sans-serif;
 }
 
 h1 {
-  font-family: Campton-Bold , Helvetica, sans-serif;
+  font-family: Campton-Bold, Helvetica, sans-serif;
   color: #B25B48;
 }
 
 h2 {
-  font-family: Campton-Bold , Helvetica, sans-serif;
+  font-family: Campton-Bold, Helvetica, sans-serif;
   color: #FADD8B;
   font-size: 2em;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 li {
-  font-family: Campton-Bold , Helvetica, sans-serif;
+  font-family: Campton-Bold, Helvetica, sans-serif;
   color: #1A3557;
 }
 
@@ -50,6 +50,7 @@ line {
   color: #1A3557;
 }
 
+/*Header*/
 .header {
   background-color: #FADD8B;
   padding-top: 2em;
@@ -72,7 +73,7 @@ line {
 }
 
 .menu-item {
-  font-family: Campton-Bold , Helvetica, sans-serif;
+  font-family: Campton-Bold, Helvetica, sans-serif;
   text-decoration: none;
   color: #1A3557;
   font-size: 1em;
@@ -96,6 +97,7 @@ line {
   margin-right: 0.5em;
 }
 
+/*Footer*/
 .footer-center {
   background-color: #FADD8B;
   display: flex;
@@ -113,13 +115,14 @@ line {
   justify-content: flex-end;
   position: relative;
 }
+
 .social-red {
-    font-size: 1.3em;
-    color: #B25B48;
-    display: flex;
-    justify-content: space-around;
-    padding:1em;
-    bottom: -5em;
+  font-size: 1.3em;
+  color: #B25B48;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  bottom: -5em;
 }
 
 span.footer {
@@ -132,7 +135,7 @@ span.footer {
   background-image: url("assets/home-background.png");
 }
 
-.about{
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,27 +148,27 @@ span.footer {
 }
 
 p.about {
-    padding-left: 30em;
-    padding-right: 30em;
+  padding-left: 30em;
+  padding-right: 30em;
 }
 
 .cta {
-    background-color: #B25B48;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-    color: #fadd8b;
-    text-decoration: none;
-    border-radius: 5px;
+  background-color: #B25B48;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: #fadd8b;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .projects {
-    background-color: #B25B48;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10em;
+  background-color: #B25B48;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10em;
 }
 
 .projects-container {
@@ -174,7 +177,6 @@ p.about {
   padding-left: 2em;
   padding-right: 2em;
 }
-
 
 .tour {
   display: flex;
@@ -185,17 +187,17 @@ p.about {
 }
 
 ul.tour {
-    display: grid;
-    line-height: 2em;
+  display: grid;
+  line-height: 2em;
 }
 
 .contact {
-    background-color: #1A3557;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 6em;
-    text-align: center;
+  background-color: #1A3557;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em;
+  text-align: center;
 }
 
 a.email {
@@ -209,14 +211,15 @@ a.yellow {
 }
 
 .social-yellow {
-    margin-top: 1em;
-    font-size: 1.5em;
-    color: #FADD8B;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #FADD8B;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
-.title{
+/*Projects*/
+.title {
   text-align: center;
   background-color: #FADD8B;
   padding-top: 1em;
@@ -224,7 +227,7 @@ a.yellow {
 }
 
 .column-half {
-  width:60%;
+  width: 60%;
 }
 
 p.yellow {
@@ -233,7 +236,7 @@ p.yellow {
 }
 
 .portfolio-item {
-  display:flex;
+  display: flex;
   flex-direction: row;
   min-height: 500px;
   overflow: hidden;
@@ -261,8 +264,9 @@ p.yellow {
   padding-right: 4em;
   background-color: #B25B48;
 }
-.right-lip::before{
-  content: '';
+
+.right-lip::before {
+  content: "";
   background-color: #B25B48;
   position: absolute;
   z-index: -1;
@@ -279,8 +283,9 @@ p.yellow {
   padding-left: 4em;
   background-color: #1A3557;
 }
-.left-lip::before{
-  content: '';
+
+.left-lip::before {
+  content: "";
   background-color: #1A3557;
   position: absolute;
   z-index: -1;
@@ -337,3 +342,5 @@ p.yellow {
   padding: 0;
   margin: 0;
 }
+
+/*# sourceMappingURL=styles.css.map */
