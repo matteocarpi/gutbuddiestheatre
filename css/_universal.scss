@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Campton-Bold";
-  src: url("/fonts/Campton Bold.otf");
+  src: url("../fonts/Campton Bold.otf");
 }
 @font-face {
   font-family: "Campton-Book";
-  src: url("/fonts/Campton Book.otf");
+  src: url("../fonts/Campton Book.otf");
 }
 
 * {
@@ -115,12 +115,13 @@ line {
   position: relative;
 }
 .social-red {
-    font-size: 1.3em;
-    color: #B25B48;
-    display: flex;
-    justify-content: space-around;
-    padding:1em;
-    bottom: -5em;
+  font-size: 1.3em;
+  color: #B25B48;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  bottom: 2.3em;
+  position: relative;
 }
 
 span.footer {

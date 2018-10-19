@@ -24,7 +24,7 @@ p.yellow {
 }
 
 .gutbuddies-photo {
-  background-image: url("assets/projects/Asset 1pj.png");
+  background-image: url("../assets/projects/Asset 1pj.png");
   object-fit: contain;
   flex-shrink: 0;
   background-size: cover;
@@ -76,14 +76,14 @@ p.yellow {
 }
 
 .cats-photo {
-  background-image: url("assets/projects/Asset 3pj.png");
+  background-image: url("../assets/projects/Asset 3pj.png");
   object-fit: contain;
   flex-shrink: 0;
   background-size: cover;
 }
 
 .barbados-photo {
-  background-image: url("assets/projects/Asset 4pj.png");
+  background-image: url("../assets/projects/Asset 4pj.png");
   object-fit: contain;
   flex-shrink: 0;
   background-size: cover;
@@ -114,7 +114,7 @@ p.yellow {
 
 .secondary-photos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   padding: 0;
   margin: 0;
