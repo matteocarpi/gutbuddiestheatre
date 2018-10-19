@@ -1,3 +1,4 @@
+/*Colours*/
 @font-face {
   font-family: "Campton-Bold";
   src: url("../fonts/Campton Bold.otf");
@@ -9,12 +10,16 @@
 * {
   font-family: Campton-Book, Helvetica, sans-serif;
   padding: 0;
-  margin: 0;
 }
 
 body {
   padding: 0;
   margin: 0;
+  background-color: #FADD8B;
+}
+
+strong {
+  font-family: Campton-Bold, Helvetica, sans-serif;
 }
 
 a {
@@ -39,6 +44,7 @@ h2 {
 
 h3 {
   color: #1A3557;
+  font-family: Campton-Bold;
 }
 
 li {
@@ -98,6 +104,11 @@ line {
 }
 
 /*Footer*/
+.footer.container {
+  border-top: solid;
+  border-color: #B25B48;
+}
+
 .footer-center {
   background-color: #FADD8B;
   display: flex;
@@ -348,9 +359,74 @@ p.yellow {
   background-color: #FADD8B;
 }
 
-.red-band {
+.band {
+  min-height: 5em;
+}
+
+.red.band {
   background-color: #B25B48;
-  height: 20%;
+  margin-top: 10em;
+}
+
+.company-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10em;
+}
+
+.the-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FADD8B;
+  position: relative;
+  top: -12em;
+  width: 40%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.blue.band {
+  background-color: #1A3557;
+}
+
+.title.people {
+  margin-bottom: 20em;
+}
+
+.row.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  top: -18.78em;
+  position: relative;
+  padding: 0 20em 0 20em;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  text-align: justify;
+}
+
+.avatar {
+  width: 300px;
+}
+
+h3.person {
+  margin-bottom: 0.3em;
+  text-align: center;
+  width: auto;
+}
+
+.people.container {
+  margin-bottom: -15em;
 }
 
 /*# sourceMappingURL=styles.css.map */

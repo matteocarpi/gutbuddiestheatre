@@ -1,3 +1,8 @@
+/*Colours*/
+$gyellow: #FADD8B;
+$gblue: #1A3557;
+$gred: #B25B48;
+
 @font-face {
   font-family: "Campton-Bold";
   src: url("../fonts/Campton Bold.otf");
@@ -10,11 +15,14 @@
 * {
   font-family: Campton-Book, Helvetica, sans-serif;
   padding: 0;
-  margin: 0;
 }
 body {
   padding: 0;
   margin: 0;
+  background-color: $gyellow;
+}
+strong {
+  font-family: Campton-Bold, Helvetica, sans-serif;
 }
 a {
   font-family: Campton-Book, Helvetica, sans-serif;
@@ -37,6 +45,7 @@ h2 {
 
 h3 {
   color: #1A3557;
+  font-family: Campton-Bold;
 }
 
 li {
@@ -97,6 +106,10 @@ line {
 
 /*Footer*/
 
+.footer.container {
+  border-top: solid;
+  border-color: $gred;
+}
 .footer-center {
   background-color: #FADD8B;
   display: flex;
