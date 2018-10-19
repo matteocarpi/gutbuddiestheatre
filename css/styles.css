@@ -122,7 +122,8 @@ line {
   display: flex;
   justify-content: space-around;
   padding: 1em;
-  bottom: -5em;
+  bottom: 2.3em;
+  position: relative;
 }
 
 span.footer {
@@ -339,6 +340,17 @@ p.yellow {
   justify-content: space-between;
   padding: 0;
   margin: 0;
+}
+
+/*The Company*/
+/*Colours*/
+.bio {
+  background-color: #FADD8B;
+}
+
+.red-band {
+  background-color: #B25B48;
+  height: 20%;
 }
 
 /*# sourceMappingURL=styles.css.map */
