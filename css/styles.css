@@ -109,22 +109,15 @@ line {
   border-color: #B25B48;
 }
 
-.footer-center {
-  background-color: #FADD8B;
+.footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 1.5em 0 1.5em 0;
 }
 
-.footer-right {
-  background-color: #FADD8B;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  position: relative;
+.fab.social-red.fa-instagram {
+  padding-left: 1em;
 }
 
 .social-red {
@@ -132,14 +125,18 @@ line {
   color: #B25B48;
   display: flex;
   justify-content: space-around;
-  padding: 1em;
-  bottom: 2.3em;
-  position: relative;
 }
 
-span.footer {
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span.footer-caption {
   color: #B25B48;
   font-family: Campton-Book, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .title-homepage {
