@@ -142,7 +142,8 @@ span.footer-caption {
 
 .title-homepage {
   height: 600px;
-  background-image: url("assets/home-background.png");
+  background-image: url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
+  background-size: contain;
 }
 
 .about {
