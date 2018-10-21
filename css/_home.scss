@@ -1,6 +1,7 @@
 .title-homepage {
-  height: 600px;
+  min-height: 600px;
   background-image: url("assets/home-background.png");
+  z-index: 0;
 }
 
 .about{
@@ -51,13 +52,16 @@ p.about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 2em 0 2em 0;
   background-color: #FADD8B;
 }
 
 ul.tour {
-    display: grid;
-    line-height: 2em;
+  display: table;
+  text-align: left;
+  padding: 0;
+  line-height: 2em;
+  width: 100%;
 }
 
 .contact {

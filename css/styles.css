@@ -48,8 +48,9 @@ h3 {
 }
 
 li {
-  font-family: Campton-Bold, Helvetica, sans-serif;
+  font-family: Campton, Helvetica, sans-serif;
   color: #1A3557;
+  min-width: fit-content;
 }
 
 line {
@@ -191,13 +192,16 @@ p.about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em;
+  padding: 2em 0 2em 0;
   background-color: #FADD8B;
 }
 
 ul.tour {
-  display: grid;
+  display: table;
+  text-align: left;
+  padding: 0;
   line-height: 2em;
+  width: 100%;
 }
 
 .contact {
