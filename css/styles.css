@@ -24,6 +24,7 @@ strong {
 
 a {
   font-family: Campton-Book, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 p {
@@ -142,8 +143,8 @@ span.footer-caption {
 
 .title-homepage {
   height: 600px;
-  background-image: url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
-  background-size: contain;
+  background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
+  background-size: 100%;
 }
 
 .about {
@@ -156,6 +157,12 @@ span.footer-caption {
   padding-top: 2em;
   text-align: center;
   line-height: 1.5em;
+}
+
+h3.about {
+  line-height: 3em;
+  font-size: 1.5em;
+  padding-bottom: 3em;
 }
 
 p.about {

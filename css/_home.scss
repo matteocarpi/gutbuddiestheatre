@@ -1,7 +1,7 @@
 .title-homepage {
-  height: 600px;
-  background-image: url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
-  background-size: contain;
+ height:600px;
+  background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
+  background-size: 100%;
 }
 
 .about{
@@ -15,7 +15,11 @@
   text-align: center;
   line-height: 1.5em;
 }
-
+h3.about {
+    line-height: 3em;
+    font-size: 1.5em;
+    padding-bottom: 3em;
+}
 p.about {
     padding-left: 30em;
     padding-right: 30em;
