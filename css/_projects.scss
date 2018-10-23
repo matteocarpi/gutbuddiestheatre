@@ -13,7 +13,7 @@
 
 p.yellow {
   color: #FADD8B;
-  padding-top: 1em;
+  padding: 1em 0 1em 0;
 }
 
 .portfolio-item {
@@ -40,6 +40,13 @@ p.yellow {
   position: relative;
   z-index: 1;
 }
+
+a.cta.yellow {
+  background-color: $gyellow;
+  color: $gred;
+  font-size: 1em;
+}
+
 
 .right-lip {
   padding-right: 4em;

@@ -253,7 +253,7 @@ a.yellow {
 
 p.yellow {
   color: #FADD8B;
-  padding-top: 1em;
+  padding: 1em 0 1em 0;
 }
 
 .portfolio-item {
@@ -279,6 +279,12 @@ p.yellow {
   background-color: #B25B48;
   position: relative;
   z-index: 1;
+}
+
+a.cta.yellow {
+  background-color: #FADD8B;
+  color: #B25B48;
+  font-size: 1em;
 }
 
 .right-lip {
