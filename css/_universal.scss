@@ -70,6 +70,8 @@ line {
 
 .navigation {
   margin-top: 2em;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-center {
@@ -79,7 +81,7 @@ line {
 }
 
 .logo {
-  width: 40em;
+  width: 50%;
 }
 
 .menu-item {

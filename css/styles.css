@@ -68,6 +68,8 @@ line {
 
 .navigation {
   margin-top: 2em;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-center {
@@ -77,7 +79,7 @@ line {
 }
 
 .logo {
-  width: 40em;
+  width: 50%;
 }
 
 .menu-item {
@@ -141,6 +143,19 @@ span.footer-caption {
   text-align: center;
 }
 
+@media screen and (max-width: 426px) {
+  .logo {
+    max-width: 20em;
+  }
+
+  .navigation {
+    max-width: 400px;
+  }
+
+  .menu-item {
+    font-size: 0.7em;
+  }
+}
 .title-homepage {
   height: 600px;
   background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
