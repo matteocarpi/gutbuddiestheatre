@@ -58,6 +58,29 @@ line {
   color: #1A3557;
 }
 
+a.nav-link {
+  font-family: Campton, Helvetica, sans-serif;
+  color: #1A3557;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1A3557 !important;
+  font-weight: bold;
+}
+
+.bg-light {
+  background-color: #FADD8B !important;
+  margin-top: 1.5em;
+  width: 50%;
+}
+
+ul.navbar-nav mr-auto {
+  display: flex;
+  justify-content: space-around !important;
+  margin: 0;
+  padding: 0;
+}
+
 /*Header*/
 .header {
   background-color: #FADD8B;
