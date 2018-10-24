@@ -37,20 +37,24 @@ $gred: #B25B48;
 
 .blue.band {
   background-color: $gblue;
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 100%;
+
 }
 
-.title.people {
-    margin-bottom: 20em;
+.row-people-wrap {
+  position:relative;
 }
-
 .row.people {
+  max-width: 60%;
+  margin:auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  top: -18.78em;
   position: relative;
-  padding: 0 20em 0 20em;
 }
 
 .person {
@@ -72,8 +76,4 @@ h3.person {
   margin-bottom: 0.3em;
   text-align: center;
   width: auto;
-}
-
-.people.container {
-  margin-bottom: -15em;
 }

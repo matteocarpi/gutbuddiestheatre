@@ -83,7 +83,7 @@ line {
 }
 
 .logo {
-  width: 70%;
+  width: 100%;
 }
 
 .menu-item {
@@ -140,15 +140,40 @@ span.footer-caption {
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 20em;
+    width: auto;
+    max-width: 200px;
   }
 
   .navigation {
-    max-width: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
   .menu-item {
-    font-size: 0.7em;
+    font-size: 80%;
+  }
+
+  .menu-item + .menu-item {
+    margin: 1em 0em;
+  }
+
+  .header {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fab {
+    font-size: 1em;
+  }
+
+  .title-homepage {
+    min-width: 100%;
   }
 }
 .title-homepage {
@@ -415,20 +440,24 @@ a.cta.yellow {
 
 .blue.band {
   background-color: #1A3557;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 
-.title.people {
-  margin-bottom: 20em;
+.row-people-wrap {
+  position: relative;
 }
 
 .row.people {
+  max-width: 60%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  top: -18.78em;
   position: relative;
-  padding: 0 20em 0 20em;
 }
 
 .person {
@@ -449,10 +478,6 @@ h3.person {
   margin-bottom: 0.3em;
   text-align: center;
   width: auto;
-}
-
-.people.container {
-  margin-bottom: -15em;
 }
 
 /*# sourceMappingURL=styles.css.map */

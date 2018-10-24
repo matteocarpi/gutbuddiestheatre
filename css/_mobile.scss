@@ -1,11 +1,36 @@
 @media screen and (max-width:768px) {
-  .logo {
-    max-width: 20em;
-  }
+ .logo {
+   width: auto;
+   max-width: 200px
+ }
   .navigation {
-    max-width: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
   .menu-item {
-    font-size: 0.7em;
+    font-size: 80%;
+  }
+
+  .menu-item + .menu-item {
+    margin: 1em 0em;
+  }
+
+  .header {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fab {
+    font-size: 1em;
+  }
+
+  .title-homepage {
+    min-width: 100%;
   }
 }
