@@ -95,9 +95,12 @@ ul.navbar-nav mr-auto {
 }
 /*Header*/
 
-.header {
-  background-color: #FADD8B;
+.header-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 2em;
+  background-color: #FADD8B;
   border-bottom: solid;
   border-color: #1A3557;
 }
@@ -106,12 +109,6 @@ ul.navbar-nav mr-auto {
   margin-top: 2em;
   display: flex;
   flex-direction: row;
-}
-
-.header-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .logo {
