@@ -1,22 +1,21 @@
 .title-homepage {
-  overflow: hidden;
-  height: 0;
-  padding-top: 56.25%;
-  background: url(/images/happy-birthday.svg);
+  padding-top: 30%;
   background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
   background-size: 100%;
 }
 
-.about{
+.about-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background-color: #FADD8B;
-  padding-bottom: 6em;
-  padding-top: 2em;
+  padding: 3em 0;
   text-align: center;
   line-height: 1.5em;
+}
+.about {
+  text-align: center;
 }
 h3.about {
     line-height: 3em;
@@ -51,7 +50,7 @@ p.about {
 .gbprojects-container {
   border: #FADD8B;
   border-style: solid;
-  padding: 0 2em;
+  padding: 2em 3em;
 }
 
 .tour-wrapper {
