@@ -196,7 +196,10 @@ span.footer-caption {
   }
 }
 .title-homepage {
-  height: 600px;
+  overflow: hidden;
+  height: 0;
+  padding-top: 56.25%;
+  background: url(/images/happy-birthday.svg);
   background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
   background-size: 100%;
 }
@@ -247,8 +250,7 @@ p.about {
 .gbprojects-container {
   border: #FADD8B;
   border-style: solid;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 0 2em;
 }
 
 .tour-wrapper {
