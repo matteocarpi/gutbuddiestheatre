@@ -37,7 +37,7 @@ p.about {
     border-radius: 5px;
 }
 
-.projects {
+.gbprojects {
     background-color: #B25B48;
     display: flex;
     align-items: center;
@@ -45,14 +45,16 @@ p.about {
     padding: 10em;
 }
 
-.projects-container {
+.gbprojects-container {
   border: #FADD8B;
   border-style: solid;
   padding-left: 2em;
   padding-right: 2em;
 }
 
-
+.tour-wrapper {
+    padding: 0 2em;
+}
 .tour {
   display: flex;
   flex-direction: column;

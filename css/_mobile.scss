@@ -8,4 +8,8 @@
   .menu-item {
     font-size: 0.7em;
   }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
 }

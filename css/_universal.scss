@@ -24,10 +24,11 @@ body {
 strong {
   font-family: Campton-Bold, Helvetica, sans-serif;
 }
-a {
+a, a:hover{
   font-family: Campton-Book, Helvetica, sans-serif;
   text-decoration: none;
 }
+
 p {
   color: #1A3557;
   font-family: Campton-Book, Helvetica, sans-serif;
@@ -65,15 +66,25 @@ a.nav-link {
   color: $gblue;
 }
 
+a.nav-link:hover{
+  text-decoration: underline;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: $gblue !important;
   font-weight: bold;
+  margin: 0 2em;
+}
+
+.navbar-light .navbar-toggler {
+    color: #1A3557;
+    border: yellow;
 }
 
 .bg-light {
-    background-color: #FADD8B !important;;
+    background-color: #FADD8B !important;
     margin-top: 1.5em;
-    width: 50%;
+    text-align: center;
 }
 
 ul.navbar-nav mr-auto {
@@ -83,6 +94,7 @@ ul.navbar-nav mr-auto {
   padding:0;
 }
 /*Header*/
+
 .header {
   background-color: #FADD8B;
   padding-top: 2em;
@@ -116,7 +128,7 @@ ul.navbar-nav mr-auto {
 .menu-item + .menu-item {
   margin-left: 6em;
 }
-
+/*
 .social-container {
   display: flex;
   flex-direction: row-reverse;
@@ -124,6 +136,7 @@ ul.navbar-nav mr-auto {
   bottom: 4em;
   right: 6em;
 }
+*/
 
 .fab.blue {
   font-size: 1.3em;

@@ -22,7 +22,7 @@ strong {
   font-family: Campton-Bold, Helvetica, sans-serif;
 }
 
-a {
+a, a:hover {
   font-family: Campton-Book, Helvetica, sans-serif;
   text-decoration: none;
 }
@@ -63,15 +63,25 @@ a.nav-link {
   color: #1A3557;
 }
 
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #1A3557 !important;
   font-weight: bold;
+  margin: 0 2em;
+}
+
+.navbar-light .navbar-toggler {
+  color: #1A3557;
+  border: yellow;
 }
 
 .bg-light {
   background-color: #FADD8B !important;
   margin-top: 1.5em;
-  width: 50%;
+  text-align: center;
 }
 
 ul.navbar-nav mr-auto {
@@ -116,6 +126,7 @@ ul.navbar-nav mr-auto {
   margin-left: 6em;
 }
 
+/*
 .social-container {
   display: flex;
   flex-direction: row-reverse;
@@ -123,7 +134,7 @@ ul.navbar-nav mr-auto {
   bottom: 4em;
   right: 6em;
 }
-
+*/
 .fab.blue {
   font-size: 1.3em;
   color: #1A3557;
@@ -178,6 +189,11 @@ span.footer-caption {
   .menu-item {
     font-size: 0.7em;
   }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .title-homepage {
   height: 600px;
@@ -220,7 +236,7 @@ p.about {
   border-radius: 5px;
 }
 
-.projects {
+.gbprojects {
   background-color: #B25B48;
   display: flex;
   align-items: center;
@@ -228,11 +244,15 @@ p.about {
   padding: 10em;
 }
 
-.projects-container {
+.gbprojects-container {
   border: #FADD8B;
   border-style: solid;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+.tour-wrapper {
+  padding: 0 2em;
 }
 
 .tour {
