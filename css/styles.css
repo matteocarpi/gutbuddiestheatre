@@ -327,7 +327,7 @@ a.cta.yellow {
   flex-shrink: 0;
   background-size: cover; }
 
-.nature-honour {
+.nature-honour-wrapper {
   background-color: #1A3557;
   display: flex;
   flex-direction: row;
@@ -335,12 +335,12 @@ a.cta.yellow {
   align-items: center;
   padding: 2em; }
 
-.nature-honour.text {
+.nature-honour-text {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.nature-honour.photos {
+.nature-honour-photos {
   display: flex;
   flex-direction: column;
   align-items: center;
