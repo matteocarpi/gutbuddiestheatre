@@ -1,0 +1,421 @@
+/*Colours*/
+@font-face {
+  font-family: "Campton-Bold";
+  src: url("../fonts/Campton Bold.otf"); }
+@font-face {
+  font-family: "Campton-Book";
+  src: url("../fonts/Campton Book.otf"); }
+* {
+  font-family: Campton-Book, Helvetica, sans-serif;
+  padding: 0; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #FADD8B; }
+
+strong {
+  font-family: Campton-Bold, Helvetica, sans-serif; }
+
+a, a:hover {
+  font-family: Campton-Book, Helvetica, sans-serif;
+  text-decoration: none; }
+
+p {
+  color: #1A3557;
+  font-family: Campton-Book, Helvetica, sans-serif; }
+
+h1 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #B25B48; }
+
+h2 {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  color: #FADD8B;
+  font-size: 2em; }
+
+h3 {
+  color: #1A3557;
+  font-family: Campton-Bold; }
+
+li {
+  font-family: Campton, Helvetica, sans-serif;
+  color: #1A3557;
+  min-width: fit-content; }
+
+line {
+  color: #1A3557; }
+
+a.nav-link {
+  font-family: Campton, Helvetica, sans-serif;
+  color: #1A3557; }
+
+a.nav-link:hover {
+  text-decoration: underline; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1A3557 !important;
+  font-weight: bold;
+  margin: 0 2em; }
+
+.navbar-light .navbar-toggler {
+  color: #1A3557;
+  border: yellow; }
+
+.bg-light {
+  background-color: #FADD8B !important;
+  margin-top: 1.5em;
+  text-align: center; }
+
+ul.navbar-nav mr-auto {
+  display: flex;
+  justify-content: space-around !important;
+  margin: 0;
+  padding: 0; }
+
+/*Header*/
+.header-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  background-color: #FADD8B;
+  border-bottom: solid;
+  border-color: #1A3557; }
+
+.navigation {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row; }
+
+.logo {
+  width: 50%; }
+
+.menu-item {
+  font-family: Campton-Bold , Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1A3557;
+  font-size: 1em; }
+
+.menu-item + .menu-item {
+  margin-left: 6em; }
+
+/*
+.social-container {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 4em;
+  right: 6em;
+}
+*/
+.fab.blue {
+  font-size: 1.3em;
+  color: #1A3557;
+  margin-right: 0.5em; }
+
+/*Footer*/
+.footer.container {
+  border-top: solid;
+  border-color: #B25B48; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em 0 1.5em 0; }
+
+.fab.social-red.fa-instagram, .fab.social-red.fa-twitter {
+  padding-left: 1em; }
+
+.social-red {
+  font-size: 1.3em;
+  color: #B25B48;
+  display: flex;
+  justify-content: space-around; }
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+span.footer-caption {
+  color: #B25B48;
+  font-family: Campton-Book, Helvetica, sans-serif;
+  text-align: center; }
+
+@media screen and (max-width: 426px) {
+  .logo {
+    max-width: 20em; }
+
+  .navigation {
+    max-width: 400px; }
+
+  .menu-item {
+    font-size: 0.7em; }
+
+  .header {
+    display: flex;
+    flex-direction: column; } }
+.title-homepage {
+  padding-top: 30%;
+  background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
+  background-size: 100%; }
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FADD8B;
+  padding: 3em 0;
+  text-align: center;
+  line-height: 1.5em; }
+
+.about {
+  text-align: center; }
+
+h3.about {
+  line-height: 3em;
+  font-size: 1.5em;
+  padding-bottom: 3em;
+  font-family: Campton-Book, Helvetica, sans-serif; }
+
+p.about {
+  padding-left: 30em;
+  padding-right: 30em; }
+
+.cta {
+  background-color: #B25B48;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: #fadd8b;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.gbprojects {
+  background-color: #B25B48;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10em; }
+
+.gbprojects-container {
+  border: #FADD8B;
+  border-style: solid;
+  padding: 2em 3em; }
+
+.tour-wrapper {
+  padding: 0 2em; }
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0 2em 0;
+  background-color: #FADD8B; }
+
+ul.tour {
+  display: table;
+  text-align: left;
+  padding: 0;
+  line-height: 2em;
+  width: 100%; }
+
+.contact {
+  background-color: #1A3557;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6em;
+  text-align: center; }
+
+a.email {
+  color: #FADD8B; }
+
+a.yellow {
+  font-size: 2em;
+  color: #FADD8B;
+  margin-right: 0.5em; }
+
+.social-yellow {
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #FADD8B;
+  margin-right: 0.5em;
+  margin-left: 0.5em; }
+
+/*Projects*/
+.title {
+  text-align: center;
+  background-color: #FADD8B;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.column-half {
+  width: 60%; }
+
+p.yellow {
+  color: #FADD8B;
+  padding: 1em 0 1em 0; }
+
+.portfolio-item {
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+  overflow: hidden; }
+
+.gutbuddies-photo {
+  background-image: url("../assets/projects/Asset 1pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover; }
+
+.portfolio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  align-items: center;
+  background-color: #B25B48;
+  position: relative;
+  z-index: 1; }
+
+a.cta.yellow {
+  background-color: #FADD8B;
+  color: #B25B48;
+  font-size: 1em; }
+
+.right-lip {
+  padding-right: 4em;
+  background-color: #B25B48; }
+
+.right-lip::before {
+  content: "";
+  background-color: #B25B48;
+  position: absolute;
+  z-index: -1;
+  width: 150%;
+  height: 300%;
+  transform: rotate(25deg); }
+
+.left-lip {
+  padding-left: 4em;
+  background-color: #1A3557; }
+
+.left-lip::before {
+  content: "";
+  background-color: #1A3557;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 300%;
+  left: 50%;
+  transform: rotate(-25deg); }
+
+.cats-photo {
+  background-image: url("../assets/projects/Asset 3pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover; }
+
+.barbados-photo {
+  background-image: url("../assets/projects/Asset 4pj.png");
+  object-fit: contain;
+  flex-shrink: 0;
+  background-size: cover; }
+
+.nature-honour {
+  background-color: #1A3557;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em; }
+
+.nature-honour.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.nature-honour.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.secondary-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0; }
+
+/*The Company*/
+/*Colours*/
+.bio {
+  background-color: #FADD8B; }
+
+.band {
+  min-height: 5em; }
+
+.red.band {
+  background-color: #B25B48;
+  margin-top: 10em; }
+
+.company-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10em; }
+
+.the-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FADD8B;
+  position: relative;
+  top: -12em;
+  width: 40%;
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.blue.band {
+  background-color: #1A3557; }
+
+.title.people {
+  margin-bottom: 20em; }
+
+.row.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  top: -18.78em;
+  position: relative;
+  padding: 0 20em 0 20em; }
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  text-align: justify; }
+
+.avatar {
+  width: 300px; }
+
+h3.person {
+  margin-bottom: 0.3em;
+  text-align: center;
+  width: auto; }
+
+.people.container {
+  margin-bottom: -15em; }
+
+/*# sourceMappingURL=styles.css.map */
