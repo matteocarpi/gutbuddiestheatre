@@ -39,11 +39,12 @@ $gred: #B25B48;
   background-color: $gblue;
 }
 
-.title.people {
+.title-people {
     margin-bottom: 20em;
+    text-align: center;
 }
 
-.row.people {
+.row-people {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -69,11 +70,7 @@ $gred: #B25B48;
 
 
 h3.person {
-  margin-bottom: 0.3em;
+  margin: 1em 0;
   text-align: center;
   width: auto;
-}
-
-.people.container {
-  margin-bottom: -15em;
 }

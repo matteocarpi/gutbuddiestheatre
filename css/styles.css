@@ -100,15 +100,6 @@ ul.navbar-nav mr-auto {
 .menu-item + .menu-item {
   margin-left: 6em; }
 
-/*
-.social-container {
-  display: flex;
-  flex-direction: row-reverse;
-  position: relative;
-  bottom: 4em;
-  right: 6em;
-}
-*/
 .fab.blue {
   font-size: 1.3em;
   color: #1A3557;
@@ -397,10 +388,11 @@ img.fish {
 .blue.band {
   background-color: #1A3557; }
 
-.title.people {
-  margin-bottom: 20em; }
+.title-people {
+  margin-bottom: 20em;
+  text-align: center; }
 
-.row.people {
+.row-people {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -422,11 +414,8 @@ img.fish {
   width: 300px; }
 
 h3.person {
-  margin-bottom: 0.3em;
+  margin: 1em 0;
   text-align: center;
   width: auto; }
-
-.people.container {
-  margin-bottom: -15em; }
 
 /*# sourceMappingURL=styles.css.map */
