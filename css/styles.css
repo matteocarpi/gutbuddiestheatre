@@ -347,10 +347,12 @@ a.cta.yellow {
   row-gap: 1em;
   object-fit: contain; }
 
+img.nature {
+  width: 100%; }
+
 img.main-pic {
   grid-column-start: 1;
-  grid-column-end: 3;
-  width: 100%; }
+  grid-column-end: 3; }
 
 img.mat {
   grid-column-start: 1;
@@ -360,24 +362,6 @@ img.fish {
   grid-column-start: 2;
   grid-column-end: 3; }
 
-/*
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 2em;
-  padding-right: 2em;
-
-}
-
-.secondary-photos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
-
-  */
 /*The Company*/
 /*Colours*/
 .bio {
