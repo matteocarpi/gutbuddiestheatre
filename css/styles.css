@@ -408,7 +408,8 @@ img.fish {
   vertical-align: top;
   width: -webkit-min-content;
   width: -moz-min-content;
-  text-align: justify; }
+  text-align: justify;
+  margin: 0 2em; }
 
 .avatar {
   width: 300px; }
