@@ -419,6 +419,9 @@ h3.person {
   .header {
     display: flex;
     flex-direction: column; } }
+@media screen and (max-width: 768px) {
+  .column-half {
+    width: 100%; } }
 @media screen and (max-width: 1025px) {
   .row-people {
     display: flex;
