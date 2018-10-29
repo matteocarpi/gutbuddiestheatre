@@ -148,6 +148,10 @@ span.footer-caption {
   .header {
     display: flex;
     flex-direction: column; } }
+@media screen and (max-width: 1025px) {
+  .row-people {
+    display: flex;
+    flex-direction: column; } }
 .title-homepage {
   padding-top: 30%;
   background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
