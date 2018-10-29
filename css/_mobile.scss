@@ -28,5 +28,9 @@
 
   *, ::after, ::before {
     box-sizing: content-box;
-}
+  }
+
+  .left-lip::before, .right-lip::before{
+    display: none;
+  }
 }

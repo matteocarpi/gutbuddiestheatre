@@ -430,6 +430,9 @@ h3.person {
     display: none; }
 
   *, ::after, ::before {
-    box-sizing: content-box; } }
+    box-sizing: content-box; }
+
+  .left-lip::before, .right-lip::before {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
