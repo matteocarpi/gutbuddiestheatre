@@ -135,23 +135,6 @@ span.footer-caption {
   font-family: Campton-Book, Helvetica, sans-serif;
   text-align: center; }
 
-@media screen and (max-width: 426px) {
-  .logo {
-    max-width: 20em; }
-
-  .navigation {
-    max-width: 400px; }
-
-  .menu-item {
-    font-size: 0.7em; }
-
-  .header {
-    display: flex;
-    flex-direction: column; } }
-@media screen and (max-width: 1025px) {
-  .row-people {
-    display: flex;
-    flex-direction: column; } }
 .title-homepage {
   padding-top: 30%;
   background: no-repeat url("/Users/matteocarpi/Documents/Web/Gut Buddies/Website/assets/home-background.png");
@@ -422,5 +405,23 @@ h3.person {
   margin: 1em 0;
   text-align: center;
   width: auto; }
+
+@media screen and (max-width: 426px) {
+  .logo {
+    max-width: 20em; }
+
+  .navigation {
+    max-width: 400px; }
+
+  .menu-item {
+    font-size: 0.7em; }
+
+  .header {
+    display: flex;
+    flex-direction: column; } }
+@media screen and (max-width: 1025px) {
+  .row-people {
+    display: flex;
+    flex-direction: column; } }
 
 /*# sourceMappingURL=styles.css.map */
