@@ -18,5 +18,15 @@
   .row-people {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
+
+  .blue.band {
+    display: none;
+  }
+
+  *, ::after, ::before {
+    box-sizing: content-box;
+}
 }
