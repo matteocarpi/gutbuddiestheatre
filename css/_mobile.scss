@@ -1,3 +1,5 @@
+/* Smartphone */
+
 @media screen and (max-width:426px) {
   .logo {
     max-width: 20em;
@@ -13,6 +15,9 @@
     flex-direction: column;
   }
 }
+
+/* Tablet */
+
 @media screen and (max-width: 768px) {
   .column-half {
     width: 100%;
@@ -26,7 +31,7 @@
   .portfolio-item.left {
     flex-direction: column-reverse;
   }
-  .portfolio-photo {
+  img.portfolio-photo {
     width:100%;
   }
   .nature-honour-wrapper {
@@ -41,6 +46,8 @@
     align-items: center;
   }
 }
+
+/* Small Laptop */
 @media screen and (max-width: 1025px) {
   .row-people {
     display: flex;

@@ -407,6 +407,7 @@ h3.person {
   text-align: center;
   width: auto; }
 
+/* Smartphone */
 @media screen and (max-width: 426px) {
   .logo {
     max-width: 20em; }
@@ -420,6 +421,7 @@ h3.person {
   .header {
     display: flex;
     flex-direction: column; } }
+/* Tablet */
 @media screen and (max-width: 768px) {
   .column-half {
     width: 100%; }
@@ -433,7 +435,7 @@ h3.person {
   .portfolio-item.left {
     flex-direction: column-reverse; }
 
-  .portfolio-photo {
+  img.portfolio-photo {
     width: 100%; }
 
   .nature-honour-wrapper {
@@ -446,6 +448,7 @@ h3.person {
 
   body {
     align-items: center; } }
+/* Small Laptop */
 @media screen and (max-width: 1025px) {
   .row-people {
     display: flex;
