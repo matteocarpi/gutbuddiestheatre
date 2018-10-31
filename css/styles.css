@@ -19,7 +19,8 @@ strong {
 
 a, a:hover {
   font-family: Campton-Book, Helvetica, sans-serif;
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 p {
   color: #1A3557;
