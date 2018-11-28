@@ -26,7 +26,7 @@ strong {
 }
 a, a:hover{
   font-family: Campton-Book, Helvetica, sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
 }
 
@@ -68,6 +68,7 @@ line {
 }
 
 a.nav-link {
+  text-decoration: none;
   font-family: Campton, Helvetica, sans-serif;
   color: $gblue;
 }

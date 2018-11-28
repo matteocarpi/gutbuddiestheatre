@@ -19,7 +19,7 @@ strong {
 
 a, a:hover {
   font-family: Campton-Book, Helvetica, sans-serif;
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit; }
 
 p {
@@ -52,6 +52,7 @@ line {
   color: #1A3557; }
 
 a.nav-link {
+  text-decoration: none;
   font-family: Campton, Helvetica, sans-serif;
   color: #1A3557; }
 
@@ -177,6 +178,9 @@ p.about {
   color: #fadd8b;
   text-decoration: none;
   border-radius: 5px; }
+
+.projects-link, .projects-link:hover {
+  text-decoration: none; }
 
 .gbprojects {
   background-color: #B25B48;

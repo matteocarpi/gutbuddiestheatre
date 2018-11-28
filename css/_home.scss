@@ -38,7 +38,9 @@ p.about {
     text-decoration: none;
     border-radius: 5px;
 }
-
+.projects-link, .projects-link:hover {
+  text-decoration: none;
+}
 .gbprojects {
     background-color: #B25B48;
     display: flex;
